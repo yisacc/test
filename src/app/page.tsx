@@ -19,17 +19,17 @@ import clsx from "clsx";
 import "./beatingheart.css";
 import { useState } from "react";
 
-export type Variants = "normal" | "inverted";
+ type Variants = "normal" | "inverted";
 
-export const variantStyle: { [key in Variants]: string } = {
-  normal: "text-right sm:col-start-5 sm:col-end-11",
-  inverted: "text-left sm:col-start-1 sm:col-end-7",
-};
+ const variantStyle: { [key in Variants]: string } = {
+   normal: "text-right sm:col-start-5 sm:col-end-11",
+   inverted: "text-left sm:col-start-1 sm:col-end-7",
+ };
 
-export const imageVariantSryle: { [key in Variants]: string } = {
-  normal: "sm:col-start-1 sm:col-end-6",
-  inverted: "sm:col-start-6 sm:col-end-11",
-};
+ const imageVariantSryle: { [key in Variants]: string } = {
+   normal: "sm:col-start-1 sm:col-end-6",
+   inverted: "sm:col-start-6 sm:col-end-11",
+ };
 
 export default function Home() {
   return (
