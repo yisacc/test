@@ -1,0 +1,38 @@
+.box{
+  margin:100px;
+  animation:beat 1.5s ease-in-out infinite;
+}
+.rectangle1{
+  margin:auto;
+  height:120px;
+  width:200px;
+  border:5px solid red;
+  background:red;
+  transform:rotate(-45deg);
+  border-radius:0px 60px 100px 0px;
+}
+.rectangle1::after{
+  content:"";
+  position:absolute;
+  right:35px;
+  top:-45px;
+  border-radius:60px 0px 0px 100px;
+  transform:rotate(90deg);
+  margin:auto;
+  height:120px;
+  width:200px;
+  border:5px solid red;
+  background:red;
+ 
+}
+@keyframes beat{
+  from{
+   transform:scale(1.1)
+  }
+  50%{
+     transform:scale(1)
+  }
+  to{
+    transform:scale(1.1)
+  }
+}
