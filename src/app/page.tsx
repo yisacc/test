@@ -60,8 +60,7 @@ export default function Home() {
                 always come back to this website and know that i always will
                 love you you can also come back to me and you can talk about
                 whats making you upset and ill always listen to you. Your
-                literally so perfect , i had to change the lyrics in some parts
-                cause they fit better😇 but i hope you have so much fun today
+                literally so perfect. I hope you have so much fun today
                 and get to hang out with friends and family i wish i were able
                 to hang out with you as well😣 im so glad i met you , i
                 don&apos;t know what i would do without you. You helped me out
